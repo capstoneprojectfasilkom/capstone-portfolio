@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+    {/* Base Gradient Background */}
+    <rect width="600" height="400" fill="#3730a3"/>
+    
+    {/* Web Browser / App Mockup Window Frame */}
+    <rect x="24" y="24" width="552" height="300" rx="16" fill="#ffffff" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    
+    {/* Browser Top Navigation Bar */}
+    <rect x="24" y="24" width="552" height="40" rx="16" fill="#f1f5f9"/>
+    <circle cx="48" cy="44" r="6" fill="#ff5f56"/>
+    <circle cx="68" cy="44" r="6" fill="#ffbd2e"/>
+    <circle cx="88" cy="44" r="6" fill="#27c93f"/>
+    <rect x="110" y="34" width="280" height="20" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="122" y="48" font-family="sans-serif" font-size="10" fill="#64748b">https://sisteminformasitugasakhir.fasilkom.unej.ac.id</text>
+    
+    {/* Hero App Banner UI */}
+    <rect x="48" y="80" width="200" height="22" rx="6" fill="#4f46e5"/>
+    <rect x="48" y="112" width="310" height="10" rx="5" fill="#cbd5e1"/>
+    <rect x="48" y="128" width="220" height="10" rx="5" fill="#e2e8f0"/>
+    
+    {/* Product / UI Content Grid Preview Cards */}
+    <rect x="48" y="156" width="155" height="140" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="60" y="168" width="131" height="64" rx="8" fill="#4f46e5" opacity="0.85"/>
+    <rect x="60" y="242" width="105" height="10" rx="4" fill="#0f172a"/>
+    <rect x="60" y="260" width="75" height="8" rx="4" fill="#64748b"/>
+    
+    <rect x="218" y="156" width="155" height="140" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="230" y="168" width="131" height="64" rx="8" fill="#4f46e5" opacity="0.65"/>
+    <rect x="230" y="242" width="105" height="10" rx="4" fill="#0f172a"/>
+    <rect x="230" y="260" width="75" height="8" rx="4" fill="#64748b"/>
+
+    {/* Analytics / Sidebar Section Preview */}
+    <rect x="388" y="80" width="172" height="216" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="402" y="96" width="144" height="18" rx="5" fill="#4f46e5"/>
+    <rect x="402" y="124" width="144" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="402" y="174" width="144" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="402" y="224" width="144" height="42" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+
+    {/* Bottom Dark Branding Overlay */}
+    <rect x="0" y="330" width="600" height="70" fill="#0f172a"/>
+    <text x="24" y="358" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="16">Sistem Informasi Tugas Akhir</text>
+    <text x="24" y="380" fill="#94a3b8" font-family="sans-serif" font-weight="500" font-size="12">Web Application • Capstone Project Fasilkom UNEJ</text>
+  </svg>

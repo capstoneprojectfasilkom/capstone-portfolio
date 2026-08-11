@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <rect width="44" height="44" x="8" y="8" rx="12" fill="#0080ff"/>
+  <path d="M22 20 L38 20 L38 24 L26 24 L26 28 L36 28 L36 32 L26 32 L26 40 L22 40 Z" fill="#ffffff"/>
+  <text x="64" y="32" font-family="sans-serif" font-weight="bold" font-size="16" fill="#000000">CAPSTONE PROJECT</text>
+  <text x="64" y="46" font-family="sans-serif" font-weight="600" font-size="12" fill="#0080ff">FASILKOM UNEJ</text>
+</svg>
