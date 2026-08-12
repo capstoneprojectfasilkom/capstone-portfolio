@@ -1,99 +1,63 @@
 "use client";
 
-import {
-  Landmark,
-  Coffee,
-  HeartPulse,
-  Stethoscope,
-  Building2,
-  ShieldCheck,
-  BarChart3,
-  GraduationCap,
-  Store,
-  CheckCircle2,
-} from "lucide-react";
+import Image from "next/image";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-
-// Industry icon mappings for each of the 9 mitra
-const partnerIcons = [
-  { icon: Store, bg: "bg-[#c5e0fb]", color: "text-[#0080ff]" }, // KPRI UNEJ (Koperasi)
-  { icon: Coffee, bg: "bg-[#ffe0c4]", color: "text-amber-800" }, // Kopi Raisa (UMKM/Coffee)
-  { icon: Landmark, bg: "bg-[#fff3c4]", color: "text-amber-900" }, // BAPPEDA Jember (Pemda)
-  { icon: HeartPulse, bg: "bg-[#c8f0d8]", color: "text-emerald-800" }, // RSD Balung (RSUD)
-  { icon: Stethoscope, bg: "bg-[#c8f0d8]", color: "text-teal-800" }, // RSD Kalisat (RSUD)
-  { icon: Building2, bg: "bg-slate-200", color: "text-slate-800" }, // Nusantara Tama (Industri)
-  { icon: ShieldCheck, bg: "bg-[#e0d4ff]", color: "text-indigo-800" }, // SPI UNEJ (Audit/Internal)
-  { icon: BarChart3, bg: "bg-[#c5e0fb]", color: "text-blue-900" }, // BAPPERIDA Lumajang (Riset & Pemda)
-  { icon: GraduationCap, bg: "bg-[#ffd6e0]", color: "text-rose-800" }, // FKIP UNEJ (Fakultas)
-];
 
 export default function ClientLogosSection() {
   const { t } = useLanguage();
 
   return (
-    <section id="mitra" className="py-20 sm:py-24 border-y border-[#8c9baa]/30 bg-[#f8fafc]">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+    <section id="mitra" className="py-20 sm:py-28 border-y border-slate-200/80 bg-gradient-to-b from-[#f8fafc] via-white to-[#f8fafc] relative overflow-hidden">
+      {/* Decorative subtle background elements */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none overflow-hidden">
+        <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#0080ff]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-600/[0.03] rounded-full blur-3xl" />
+      </div>
+
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 relative z-10">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="step-badge mb-4">
-            <span className="font-semibold text-ink uppercase">{t.clients.badgeTag}</span>
-            <span className="text-[#8c9baa]">•</span>
-            <span className="text-[#8c9baa]">{t.clients.badgeSubtitle}</span>
+        <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-18">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-[#0080ff] text-xs font-semibold uppercase tracking-wider mb-4 shadow-sm">
+            <span>{t.clients.badgeTag}</span>
+            <span className="opacity-40">•</span>
+            <span>{t.clients.badgeSubtitle}</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-ink tracking-tight mb-4 text-balance break-words">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight mb-4 text-balance break-words">
             {t.clients.headline}
           </h2>
-          <p className="text-sm sm:text-base text-[#636f7b] break-words">
+          <p className="text-base sm:text-lg text-slate-600 leading-relaxed break-words">
             {t.clients.subtitle}
           </p>
         </div>
 
-        {/* 9 Cards Grid (3x3) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {t.clients.items.map((client, idx) => {
-            const iconObj = partnerIcons[idx % partnerIcons.length];
-            const IconComp = iconObj.icon;
+        {/* Enhanced Partner Cards Grid (Displaying ONLY Logo & Name) */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
+          {t.clients.items.map((client, idx) => (
+            <div
+              key={idx}
+              className="group relative bg-white rounded-2xl border border-slate-200/80 hover:border-[#0080ff]/40 p-5 sm:p-6 flex flex-col items-center justify-between text-center transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/[0.07] hover:-translate-y-1.5 overflow-hidden cursor-pointer min-h-[170px] sm:min-h-[190px]"
+            >
+              {/* Subtle card glow overlay on hover */}
+              <div className="absolute inset-0 bg-gradient-to-b from-blue-50/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
 
-            return (
-              <div
-                key={idx}
-                className="rounded-[24px] border border-[#8c9baa] bg-white p-6 sm:p-7 hover:shadow-custom-lg transition-all duration-300 flex flex-col justify-between group min-h-[210px]"
-              >
-                <div>
-                  {/* Card Top Row: Industry Icon Badge + Category Tag */}
-                  <div className="flex items-center justify-between gap-3 mb-5">
-                    {/* Pastel Industry Icon Badge */}
-                    <div
-                      className={`w-12 h-12 rounded-full ${iconObj.bg} flex items-center justify-center ${iconObj.color} shrink-0 group-hover:scale-110 transition-transform`}
-                    >
-                      <IconComp className="w-6 h-6" />
-                    </div>
-
-                    <span className="px-3 py-1 bg-slate-100 border border-[#8c9baa]/30 text-[#0080ff] text-[11px] font-bold rounded-full uppercase tracking-wider shrink-0">
-                      {client.tag}
-                    </span>
-                  </div>
-
-                  {/* Partner Title & Description */}
-                  <h3 className="text-lg font-bold text-ink mb-1 group-hover:text-[#0080ff] transition-colors break-words">
-                    {client.name}
-                  </h3>
-                  <p className="text-xs sm:text-sm text-[#636f7b] leading-relaxed break-words">
-                    {client.desc}
-                  </p>
-                </div>
-
-                {/* Card Footer */}
-                <div className="mt-5 pt-4 border-t border-[#8c9baa]/20 flex items-center justify-between text-xs text-[#8c9baa]">
-                  <span className="flex items-center gap-1.5 font-medium text-[#636f7b]">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-[#0080ff]" />
-                    Mitra Resmi Capstone
-                  </span>
-                  <span className="text-[11px] text-[#0080ff] font-bold">Verified</span>
-                </div>
+              {/* Logo Container */}
+              <div className="relative w-full h-20 sm:h-24 flex items-center justify-center p-2 mb-3">
+                <Image
+                  src={client.logo}
+                  alt={client.name}
+                  width={140}
+                  height={80}
+                  className="max-h-full max-w-full w-auto h-auto object-contain filter transition-all duration-300 group-hover:scale-110 drop-shadow-sm"
+                  unoptimized
+                />
               </div>
-            );
-          })}
+
+              {/* Partner Name Label */}
+              <h3 className="relative z-10 text-xs sm:text-sm font-bold text-slate-800 tracking-tight leading-snug group-hover:text-[#0080ff] transition-colors duration-300 line-clamp-2">
+                {client.name}
+              </h3>
+            </div>
+          ))}
         </div>
       </div>
     </section>

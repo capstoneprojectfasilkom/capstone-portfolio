@@ -19,13 +19,13 @@ export const translations = {
       badgeFaculty: "Fasilkom",
       headline: "Solusi Perangkat Lunak Berdampak Nyata untuk Instansi & Industri",
       subheadline:
-        "Capstone Project Fasilkom UNEJ mengembangkan aplikasi website, mobile, dan sistem integrasi siap pakai untuk mitra riil dengan kontinuitas lintas semester.",
+        "Capstone Project Fasilkom UNEJ mengembangkan aplikasi website, mobile, dan sistem integrasi siap pakai untuk mitra riil dengan jaminan keberlanjutan proyek.",
       primaryCta: "Ajukan Proyek",
       secondaryCta: "Lihat Portofolio",
       trustLine: "Dipercaya oleh 20+ mitra pemerintahan & industri sejak 2022",
       callout1Title: "Jaminan Kualitas 100%",
       callout1Desc: "Standardisasi QA & Arsitektur",
-      callout2Title: ">5 Semester Kontinuitas",
+      callout2Title: "Keberlanjutan Proyek",
       callout2Desc: "Pengembangan sistem tanpa henti",
       dashboardUrl: "capstone.fasilkom.unej.ac.id/dashboard",
       dashboardStatusTitle: "Status Proyek Sistem",
@@ -41,15 +41,16 @@ export const translations = {
       headline: "Mitra Instansi & Industri Terpercaya",
       subtitle: "Telah dipercaya oleh berbagai instansi pemerintahan, rumah sakit daerah, badan perencanaan, koperasi, unit kampus, dan mitra industri sejak 2022.",
       items: [
-        { name: "KPRI UNEJ", desc: "Koperasi Pegawai Republik Indonesia UNEJ", tag: "Koperasi & Usaha", logo: "/images/clients/client-1.svg" },
-        { name: "Kopi Raisa", desc: "Produk & Brand Kopi Fasilkom UNEJ", tag: "Produk & UMKM", logo: "/images/clients/client-2.svg" },
-        { name: "BAPPEDA Jember", desc: "Badan Perencanaan Pembangunan Daerah", tag: "Pemerintah Daerah", logo: "/images/clients/client-3.svg" },
-        { name: "RSD Balung", desc: "Rumah Sakit Daerah Balung Jember", tag: "Layanan Kesehatan", logo: "/images/clients/client-4.svg" },
-        { name: "RSD Kalisat", desc: "Rumah Sakit Daerah Kalisat Jember", tag: "Layanan Kesehatan", logo: "/images/clients/client-5.svg" },
-        { name: "Nusantara Tama", desc: "PT Nusantara Tama (Mitra Industri)", tag: "Mitra Industri", logo: "/images/clients/client-6.svg" },
-        { name: "Satuan Pengawas Internal UNEJ", desc: "SPI Universitas Jember", tag: "Unit Kampus", logo: "/images/clients/client-7.svg" },
-        { name: "BAPPERIDA Lumajang", desc: "Badan Perencanaan Pembangunan & Riset", tag: "Pemerintah Daerah", logo: "/images/clients/client-8.svg" },
-        { name: "FKIP UNEJ", desc: "Fakultas Keguruan & Ilmu Pendidikan", tag: "Fakultas UNEJ", logo: "/images/clients/client-9.svg" },
+        { name: "KPRI UNEJ", logo: "/images/partners/kpri.png" },
+        { name: "Kopi Raisa", logo: "/images/partners/kopi-raisa.png" },
+        { name: "BAPPEDA Jember", logo: "/images/partners/kabupaten-jember.png" },
+        { name: "RSD Balung", logo: "/images/partners/rsd-balung.jpeg" },
+        { name: "RSD Kalisat", logo: "/images/partners/rsd-kalisat.png" },
+        { name: "PT Nusantara Tama", logo: "/images/partners/nusantara-tama.jpeg" },
+        { name: "SPI UNEJ", logo: "/images/partners/spi-unej.png" },
+        { name: "BAPPERIDA Lumajang", logo: "/images/partners/bapperida-lumajang.png" },
+        { name: "FKIP UNEJ", logo: "/images/partners/fkip-unej.webp" },
+        { name: "BAPPERIDA Jember", logo: "/images/partners/bapperida-jember.jpeg" },
       ],
     },
     process: {
@@ -60,10 +61,10 @@ export const translations = {
         "Diferensiasi utama Capstone Project: Proyek Anda dikawal secara terstruktur dari analisis, pengembangan, deployment, pendaftaran HKI, hingga publikasi expo produk.",
       standardFlow: "Fasilkom Standardised Flow",
       keyDiffTag: "KEUNGGULAN UTAMA",
-      keyDiffTitle: "Jaminan Kontinuitas Lintas Semester",
+      keyDiffTitle: "Jaminan Keberlanjutan Proyek",
       keyDiffDesc:
         "Setiap aplikasi didokumentasikan dengan standar industri, dilindungi Hak Cipta (HKI), dipamerkan dalam expo resmi, dan diteruskan ke tim angkatan penerus.",
-      keyDiffBadge: ">5 Semester Pembinaan Aktif",
+      keyDiffBadge: "Pembinaan Aktif Berkelanjutan",
       steps: [
         {
           step: "01",
@@ -465,7 +466,7 @@ export const translations = {
       footerValidation: "Standar Akademik & Industri",
       pillars: [
         {
-          title: "Kontinuitas Lintas Semester (>5 Semester)",
+          title: "Jaminan Keberlanjutan Proyek",
           description:
             "Aplikasi Anda tidak mangkrak. Sistem estafet dan transfer pengetahuan resmi memastikan proyek terus dirawat oleh tim angkatan penerus.",
         },
@@ -586,13 +587,13 @@ export const translations = {
       badgeFaculty: "Fasilkom",
       headline: "High-Impact Software Solutions for Institutional & Enterprise Partners",
       subheadline:
-        "Capstone Project Fasilkom UNEJ develops production-ready web, mobile, and integrated software solutions for real-world partners with multi-semester continuity.",
+        "Capstone Project Fasilkom UNEJ develops production-ready web, mobile, and integrated software solutions for real-world partners with guaranteed project continuity.",
       primaryCta: "Submit Project",
       secondaryCta: "View Portfolio",
       trustLine: "Trusted by 20+ government & industry partners since 2022",
       callout1Title: "100% Quality Guaranteed",
       callout1Desc: "QA & Architecture Standardization",
-      callout2Title: ">5 Semesters Continuity",
+      callout2Title: "Project Continuity",
       callout2Desc: "Uninterrupted system development",
       dashboardUrl: "capstone.fasilkom.unej.ac.id/dashboard",
       dashboardStatusTitle: "System Project Status",
@@ -608,15 +609,16 @@ export const translations = {
       headline: "Trusted Institutional & Industry Partners",
       subtitle: "Trusted by regional government agencies, public hospitals, planning boards, cooperatives, university units, and enterprise partners since 2022.",
       items: [
-        { name: "KPRI UNEJ", desc: "KPRI University of Jember Cooperative", tag: "Cooperative & Business", logo: "/images/clients/client-1.svg" },
-        { name: "Kopi Raisa", desc: "Fasilkom UNEJ Coffee Brand & Product", tag: "SME & Product", logo: "/images/clients/client-2.svg" },
-        { name: "BAPPEDA Jember", desc: "Jember Regional Development Planning Board", tag: "Local Government", logo: "/images/clients/client-3.svg" },
-        { name: "RSD Balung", desc: "Balung Regional Hospital Jember", tag: "Healthcare Services", logo: "/images/clients/client-4.svg" },
-        { name: "RSD Kalisat", desc: "Kalisat Regional Hospital Jember", tag: "Healthcare Services", logo: "/images/clients/client-5.svg" },
-        { name: "Nusantara Tama", desc: "PT Nusantara Tama (Industry Partner)", tag: "Industry Partner", logo: "/images/clients/client-6.svg" },
-        { name: "SPI UNEJ", desc: "Internal Audit Unit University of Jember", tag: "Campus Unit", logo: "/images/clients/client-7.svg" },
-        { name: "BAPPERIDA Lumajang", desc: "Lumajang Planning, Research & Innovation Agency", tag: "Local Government", logo: "/images/clients/client-8.svg" },
-        { name: "FKIP UNEJ", desc: "Faculty of Teacher Training & Education", tag: "UNEJ Faculty", logo: "/images/clients/client-9.svg" },
+        { name: "KPRI UNEJ", logo: "/images/partners/kpri.png" },
+        { name: "Kopi Raisa", logo: "/images/partners/kopi-raisa.png" },
+        { name: "BAPPEDA Jember", logo: "/images/partners/kabupaten-jember.png" },
+        { name: "RSD Balung Jember", logo: "/images/partners/rsd-balung.jpeg" },
+        { name: "RSD Kalisat Jember", logo: "/images/partners/rsd-kalisat.png" },
+        { name: "PT Nusantara Tama", logo: "/images/partners/nusantara-tama.jpeg" },
+        { name: "SPI UNEJ", logo: "/images/partners/spi-unej.png" },
+        { name: "BAPPERIDA Lumajang", logo: "/images/partners/bapperida-lumajang.png" },
+        { name: "FKIP UNEJ", logo: "/images/partners/fkip-unej.webp" },
+        { name: "BAPPERIDA Jember", logo: "/images/partners/bapperida-jember.jpeg" },
       ],
     },
     process: {
@@ -627,10 +629,10 @@ export const translations = {
         "The key differentiator of Capstone Project: Structured end-to-end execution from requirement analysis, development sprints, deployment, IP registration, to product expo showcase.",
       standardFlow: "Fasilkom Standardised Flow",
       keyDiffTag: "KEY DIFFERENTIATOR",
-      keyDiffTitle: "Multi-Semester Continuity Guarantee",
+      keyDiffTitle: "Project Continuity Guarantee",
       keyDiffDesc:
         "Every application is documented to industry standards, IP-protected, showcased in official expos, and maintained seamlessly.",
-      keyDiffBadge: ">5 Semesters Active Continuity",
+      keyDiffBadge: "Active Continuous Support",
       steps: [
         {
           step: "01",
@@ -1032,7 +1034,7 @@ export const translations = {
       footerValidation: "Academic & Industry Validated",
       pillars: [
         {
-          title: "Multi-Semester Continuity (>5 Semesters)",
+          title: "Project Continuity Guarantee",
           description:
             "Your application won't stall. Formal knowledge handovers ensure continuous maintenance by incoming team cohorts.",
         },

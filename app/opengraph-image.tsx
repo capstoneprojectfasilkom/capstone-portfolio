@@ -83,7 +83,7 @@ export default async function Image() {
               margin: 0,
             }}
           >
-            Membangun Perangkat Lunak Berdampak Nyata untuk Mitra Instansi & Industri dengan Kontinuitas Lintas Semester.
+            Membangun Perangkat Lunak Berdampak Nyata untuk Mitra Instansi & Industri dengan Jaminan Keberlanjutan Proyek.
           </p>
         </div>
 
@@ -103,7 +103,7 @@ export default async function Image() {
               <span style={{ fontSize: "14px", color: "#636f7b" }}>Mitra Industri & Instansi</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <span style={{ fontSize: "28px", fontWeight: 700, color: "#000000" }}>&gt;5 Semester</span>
+              <span style={{ fontSize: "22px", fontWeight: 700, color: "#000000" }}>Berkelanjutan</span>
               <span style={{ fontSize: "14px", color: "#636f7b" }}>Kontinuitas Proyek</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
