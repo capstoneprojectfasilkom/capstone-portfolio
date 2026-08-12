@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: "Capstone Project – Fasilkom UNEJ | Solusi Perangkat Lunak Berdampak Nyata",
     description:
-      "Mitra terpercaya pengembangan software berkualitas tinggi yang dikerjakan dengan kontinuitas lintas semester dan jaminan kualitas penuh.",
+      "Mitra terpercaya pengembangan software berkualitas tinggi yang dikerjakan dengan jaminan keberlanjutan proyek dan kualitas penuh.",
     siteName: "Capstone Project Fasilkom UNEJ",
     images: [
       {
