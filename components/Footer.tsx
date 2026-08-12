@@ -39,17 +39,8 @@ export default function Footer() {
               {t.footer.brandDesc}
             </p>
 
-            {/* Official Web & GitHub Links */}
+            {/* GitHub Link */}
             <div className="flex items-center gap-3 pt-2">
-              <a
-                href="https://ilkom.unej.ac.id/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-slate-300 hover:bg-[#0080ff] hover:text-white transition-colors shrink-0"
-                aria-label="Official Website Fasilkom UNEJ"
-              >
-                <Globe className="w-4 h-4" />
-              </a>
               <a
                 href="https://github.com/capstoneprojectfasilkom"
                 target="_blank"
